@@ -15,18 +15,29 @@
 .bg-primary{
     background: #FD6E0A;
 }
-
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 .btn{
     background: #FD6E0A;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 18px;
-    padding: 5px 10px ;
+    font-size: 20px;
+    padding: 10px ;
 }
 
 
 /* Header */
+
+header{
+    background-color: #FFF8F3;
+    background-image: url('/assets/header_bg.png'), url('/assets/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    min-height: 100%;
+}
 
 /* Navbar */
 
@@ -34,7 +45,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 20px 0;
 }
 
 nav .logo h3{
@@ -58,3 +69,23 @@ ul li a{
     text-decoration: none;
     font-size: 18px;
 }
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .content-side h4{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.banner .content-side h1{
+    font-size: 60px;
+}
+
+.banner .content-side p{
+    color: #5f5e5e;
+}
+
