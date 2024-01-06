@@ -19,6 +19,12 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .btn{
     background: #FD6E0A;
     color: white;
