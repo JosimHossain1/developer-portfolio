@@ -46,6 +46,7 @@
     border-radius: 5px;
     font-size: 20px;
     padding: 10px ;
+    cursor: pointer;
 }
 
 
@@ -192,6 +193,33 @@ ul li a{
 }
 /* Form section */
 
+.contact {
+    background-color: #FFF8F3;
+    padding: 50px 0;
+}
+
+.contact .contact_wrap{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact .content_side{
+    width: 50%;
+}
+.contact .form_side{
+    width: 50%;
+}
+.contact input , textarea{
+    width: 100%;
+    border:  none;
+    display: block;
+    margin: 10px 0;
+    padding: 18px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
 /* Footer */
 
 footer p{
@@ -199,5 +227,5 @@ footer p{
     padding: 20px 0px;
     text-align: center; 
     background-color: #e8e8e8;
-    margin-top: 20px;
+
 }
