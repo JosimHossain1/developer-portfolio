@@ -131,8 +131,34 @@ ul li a{
     font-weight: normal;
     font-size: 15px;
 }
+
 /* What i do */
 
+.what_i_do{
+    text-align: center;
+}
+
+.what_i_do .what_i_do_skill{
+    margin: 60px 0px;
+    text-align: left;
+}
+
+.what_i_do .skill-box{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.what_i_do .what_i_do_skill h3{
+    margin: 10px 0;
+}
+
+.what_i_do .skill-box:hover{
+    margin-top: -15px;
+}
 /* Reusme */
 
 /* Form section */
