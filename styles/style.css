@@ -159,8 +159,37 @@ ul li a{
 .what_i_do .skill-box:hover{
     margin-top: -15px;
 }
-/* Reusme */
 
+
+/* Reusme */
+.resume{
+    margin: 50px 0;
+}
+.resume-box{
+    margin: 25px 0;
+}
+.resume h1{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.resume h2{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.resume h3{
+    color: #3b3a3a;
+    
+}
+
+.resume h4{
+    color: #5f5e5e;
+    font-size: 14px;
+}
+.resume .work_expereince{
+    margin-left: 60px;
+}
 /* Form section */
 
 /* Footer */
